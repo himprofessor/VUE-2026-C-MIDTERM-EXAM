@@ -15,7 +15,7 @@
         <div v-else>
             <h3>{{ task.title }}</h3>
             <p style="color: gray;" v-if="task.completed">status: Completed</p>
-            <p  style="color: green;">status: Pending</p>
+            <p  style="color: green;" v-else>status: Pending</p>
             <button @click="completedTask">Complete</button>
             <button @click="delete_task">Delete</button>
         </div>
