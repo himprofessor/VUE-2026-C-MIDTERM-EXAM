@@ -251,7 +251,7 @@ You have everything you need to succeed. Follow these tips and work calmly. 🧘
 
 1. **🏗️ Start from the component structure.** Create your empty `.vue` files first, then fill them in. A clear structure makes everything easier.
 2. **🐾 Build step by step.** Get tasks displaying first. Then add the badge. Then the buttons. Don't try to do everything at once.
-3. **🔍 Test props carefully.** When passing data into a component, `console.log` the prop inside the child to confirm it arrived correctly.
+3. **🔍 Test props carefully.** When passing data into a component, `console.log` the prop inside the child to confirm it arrived correctly.  
 4. **📛 Check your emit event names.** The name you `emit` in the child must **exactly match** the name you listen for (`@event-name`) in the parent. A typo here is the #1 cause of "it's not working." 
 5. **🎯 Focus on functionality first, styling later.** A working ugly app scores more than a beautiful broken one. Polish the look only after the logic works.
 6. **🐞 Use `console.log` for debugging.** When something doesn't work, log values to see what your data actually looks like. This is a professional habit.
