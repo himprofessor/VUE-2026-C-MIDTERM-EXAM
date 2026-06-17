@@ -10,7 +10,7 @@
             </BaseCard>
         </div>
 
-      <h2 :style="{ textDecoration: props.completed ? 'line-through' : 'none', color: props.completed ? '#888' : 'black' }">{{ props.title }}</h2>
+      <h2 >{{ props.title }}</h2>
       <button 
   @click="$emit('toggleComplete', props.id)">
 Complete
